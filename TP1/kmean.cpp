@@ -44,6 +44,8 @@ int main(int argc, char* argv[]) {
     double tmpR[3];
     double tmpV[3];
     
+    
+    
     std::copy(std::begin(pixelR), std::end(pixelR), std::begin(tmpR));
     std::copy(std::begin(pixelV), std::end(pixelV), std::begin(tmpV));
     
@@ -77,7 +79,7 @@ int main(int argc, char* argv[]) {
         ++cpt;
         nbV = 0;
         nbR = 0;
-    }while(cpt < 100);
+    }while(cpt < 1000);
     
     std::cout << "R : " << moyPixelsR[0]  << ", " << moyPixelsR[1] << ", " << moyPixelsR[2] << std::endl;
     std::cout << "V : " << moyPixelsV[0]  << ", " << moyPixelsV[1] << ", " << moyPixelsV[2] << std::endl;
@@ -98,7 +100,7 @@ int main(int argc, char* argv[]) {
         
     }
 
-    ecrire_image_ppm("Out.pp3m", ImgOut,  nH, nW);
+    ecrire_image_ppm("Out3.ppm", ImgOut,  nH, nW);
 
     free(ImgIn);
     return 1;

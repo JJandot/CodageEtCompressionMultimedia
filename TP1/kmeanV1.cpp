@@ -83,8 +83,6 @@ int main(int argc, char* argv[]) {
                 ImgOut2[i + j] = moyPixelsR[j];
             }
         }
-        
-        
     }
 
     ecrire_image_ppm("Out.ppm", ImgOut,  nH, nW);
