@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
         
         y = 0.299 * nr + 0.587 * ng + 0.114 * nb;
         cr = 0.5 * nr - 0.4187 * ng - 0.0813 * nb + 128;
-        cb = -0.1687 * nr - 0.3313 * ng - 0.5 * nb + 128;
+        cb = 128 - 0.1687 * nr - 0.3313 * ng - 0.5 * nb;
         
         ImgOut[i] = y;
         ImgOut[i + 1] = cr;
