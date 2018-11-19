@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP6">
+				<Option output="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/TP6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP6/fast">
+				<Option output="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/TP6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/Bin.cpp">
+			<Option target="TP6"/>
+		</Unit>
+		<Unit filename="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/Bin.h">
+			<Option target="TP6"/>
+		</Unit>
+		<Unit filename="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/Face.cpp">
+			<Option target="TP6"/>
+		</Unit>
+		<Unit filename="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/Face.h">
+			<Option target="TP6"/>
+		</Unit>
+		<Unit filename="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/Point.cpp">
+			<Option target="TP6"/>
+		</Unit>
+		<Unit filename="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/Point.h">
+			<Option target="TP6"/>
+		</Unit>
+		<Unit filename="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/main.cpp">
+			<Option target="TP6"/>
+		</Unit>
+		<Unit filename="/auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

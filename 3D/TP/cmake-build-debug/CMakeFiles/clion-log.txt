@@ -1,0 +1,4 @@
+/auto_home/jjandot/Téléchargements/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /auto_home/jjandot/M2/M2_CodageEtCompressionMultimedia/3D/TP/cmake-build-debug
