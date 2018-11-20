@@ -121,12 +121,10 @@ void tatouage(int message, float alpha, float k, float deltaK, int nBin){
         for (auto &j : vP) {
             if(j.getRho() >= val && j.getRho() < val + length) {
                 b.addPoint(j);
-                std::cout << j.getRho() << std::endl;
             }
         }
         val = val + length;
         b.normalise();
-
 
         float mean = b.getMean();
         while(mean < alpha + 0.5){

@@ -17,7 +17,6 @@ private:
     std::vector<Point> points;
 public:
     const std::vector<Point> &getPoints() const;
-    void setPoints(const std::vector<Point> &points);
 
 public:
     Bin(float rMin, float rMax);

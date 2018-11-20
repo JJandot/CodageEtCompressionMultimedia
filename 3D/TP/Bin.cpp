@@ -4,8 +4,6 @@
 
 #include "Bin.h"
 
-#include <cmath>
-
 Bin::Bin(float rMin, float rMax) {
     this->rMin = rMin;
     this->rMax = rMax;
@@ -17,16 +15,18 @@ const std::vector<Point> &Bin::getPoints() const {
 
 void Bin::normalise() {
     float val = rMax - rMin;
-    for (auto p : points) {
-        p.setRho((p.getRho() - rMin) / val);
-        p.setPhi((p.getPhi() - rMin) / val);
-        p.setTeta((p.getTeta() - rMin) / val);
+    for (auto &point : points) {
+        std::cout << "before : " << point.getRho();
+        point.setRho((point.getRho() - rMin) / val);
+        point.setPhi((point.getPhi() - rMin) / val);
+        point.setTeta((point.getTeta() - rMin) / val);
+        std::cout << ", after : " << point.getRho() << std::endl;
     }
 }
 
 void Bin::normaliseInv() {
     float val = rMax - rMin;
-    for (auto p : points) {
+    for (auto &p : points) {
         p.setRho(p.getRho() * val  + rMin);
         p.setPhi(p.getPhi() * val  + rMin);
         p.setTeta(p.getTeta() * val  + rMin);
